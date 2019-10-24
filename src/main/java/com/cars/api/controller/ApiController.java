@@ -3,14 +3,12 @@ package com.cars.api.controller;
 import com.cars.api.DAO.CarDAO;
 import com.cars.api.model.Car;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.Info;
-import io.swagger.annotations.SwaggerDefinition;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 
-@Api(description="CRUD API for cars")
+@Api(description = "CRUD API for cars")
 @RestController
 public class ApiController {
 
